@@ -8,8 +8,9 @@ import TodosList from './components/Lists/TodosList';
 import SimpleFormsApp from './components/forms/SimpleFormsApp';
 import SimpleFormFileUpload from './components/forms/SimpleFormFileUpload';
 import FormWithHook from './components/forms/FormWithHook';
-import UseMemoEx from './components/memos/useMemoEx';
-import UseStateApp from './components/hooks/usestateExample';
+import UseMemoEx from './components/memos/UseMemoEx';
+import UseStateApp from './components/hooks/UsestateExample';
+import UseEffectApp from './components/hooks/UseEffectExample';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           </Route>
           <Route path='/use_memo' element={<UseMemoEx />} />
           <Route path='/use_state' element={<UseStateApp />} />
+          <Route path='/use_effect' element={<UseEffectApp />} />
         </Routes>
       </div>
 

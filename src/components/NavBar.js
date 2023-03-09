@@ -53,6 +53,7 @@ const NavBar = () => {
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><NavLink className="dropdown-item" to="/use_state">useState</NavLink></li>
+                            <li><NavLink className="dropdown-item" to="/use_effect">useEffect</NavLink></li>
                             {/* <li><NavLink className="dropdown-item" to="/forms/simple_file_upload">react.memo</NavLink></li> */}
                         </ul>
                     </li>

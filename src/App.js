@@ -11,6 +11,7 @@ import FormWithHook from './components/forms/FormWithHook';
 import UseMemoEx from './components/memos/UseMemoEx';
 import UseStateApp from './components/hooks/UsestateExample';
 import UseEffectApp from './components/hooks/UseEffectExample';
+import UseReducerExample from './components/hooks/UseReducerExample';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path='/use_memo' element={<UseMemoEx />} />
           <Route path='/use_state' element={<UseStateApp />} />
           <Route path='/use_effect' element={<UseEffectApp />} />
+          <Route path='/use_reducer' element={<UseReducerExample />} />
         </Routes>
       </div>
 

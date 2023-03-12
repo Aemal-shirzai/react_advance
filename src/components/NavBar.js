@@ -59,6 +59,9 @@ const NavBar = () => {
                             {/* <li><NavLink className="dropdown-item" to="/forms/simple_file_upload">react.memo</NavLink></li> */}
                         </ul>
                     </li>
+                    <li className="nav-item col-6 col-md-auto">
+                        <NavLink className="nav-link p-2" to="/jsx">JSX</NavLink>
+                    </li>
                 </ul>
 
                 <hr className="d-md-none text-white-50"/>

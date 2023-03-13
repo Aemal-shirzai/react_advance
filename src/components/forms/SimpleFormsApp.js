@@ -57,23 +57,23 @@ function SimpleFormsApp() {
             <label>
               First name <sup>*</sup>
             </label>
-            <input value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="First name" />
+            <input className="form-control" value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="First name" />
           </div>
           <div className="Field">
             <label>Last name</label>
-            <input value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Last name" />
+            <input className="form-control" value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Last name" />
           </div>
           <div className="Field">
             <label>
               Email address <sup>*</sup>
             </label>
-            <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email address" />
+            <input className="form-control" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email address" />
           </div>
           <div className="Field">
             <label>
               Password <sup>*</sup>
             </label>
-            <input value={password.value}
+            <input className="form-control" value={password.value}
               onChange={(e) => setPassword({ ...password, value: e.target.value })}
               onBlur={() => setPassword({ ...password, isTouched: true })}
               placeholder="Password" />
@@ -83,13 +83,13 @@ function SimpleFormsApp() {
             <label>
               Role <sup>*</sup>
             </label>
-            <select value={role} onChange={(e) => setRole(e.target.value)}>
+            <select className="form-control" value={role} onChange={(e) => setRole(e.target.value)}>
               <option value="role">Role</option>
               <option value="individual">Individual</option>
               <option value="business">Business</option>
             </select>
           </div>
-          <button type="submit" disabled={!getIsFormValid()}>
+          <button className="btn btn-primary" type="submit" disabled={!getIsFormValid()}>
             Create account
           </button>
         </fieldset>

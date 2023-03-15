@@ -70,6 +70,15 @@ const NavBar = () => {
                             <li><NavLink className="dropdown-item" to="/hoc_mouse">Mouse Tracker</NavLink></li>
                         </ul>
                     </li>
+                    <li className="nav-item col-6 col-md-auto dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Render Props
+                        </a>
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><NavLink className="dropdown-item" to="/rp_counter">Counter</NavLink></li>
+                            <li><NavLink className="dropdown-item" to="/hoc_mouse">Mouse Tracker</NavLink></li>
+                        </ul>
+                    </li>
                 </ul>
 
                 <hr className="d-md-none text-white-50"/>

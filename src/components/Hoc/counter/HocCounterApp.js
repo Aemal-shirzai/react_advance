@@ -1,5 +1,5 @@
-import ClickCounter from "./ClickCounter";
-import HoverCounter from "./HoverCounter";
+import HocClickCounter from "./HocClickCounter";
+import HocHoverCounter from "./HocHoverCounter";
 
 const HocCounterApp = () => {
     return (
@@ -14,11 +14,11 @@ const HocCounterApp = () => {
             <div className="row">
                 <div className="col-6">
                     <h3>1. Click Counter</h3>
-                    <ClickCounter info="Counter Component"/>
+                    <HocClickCounter info="Counter Component"/>
                 </div>
                 <div className="col-6">
                     <h3>2. Hover Counter</h3>
-                    <HoverCounter info="Hover Component" />
+                    <HocHoverCounter info="Hover Component" />
                 </div>
             </div>
         </div>

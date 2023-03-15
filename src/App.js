@@ -15,6 +15,7 @@ import UseReducerExample from './components/hooks/UseReducerExample';
 import CustomHook from './components/hooks/CustomHook';
 import JsxApp from './components/jsxExamples/JsxApp';
 import HocCounterApp from './components/Hoc/counter/HocCounterApp';
+import HocMouseTrackerApp from './components/Hoc/mouseTracker/HocMouseTrackerApp';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path='/custom_hook' element={<CustomHook />} />
           <Route path='/jsx' element={<JsxApp />} />
           <Route path='/hoc_counter' element={<HocCounterApp />} />
+          <Route path='/hoc_mouse' element={<HocMouseTrackerApp />} />
         </Routes>
       </div>
 

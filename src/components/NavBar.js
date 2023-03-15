@@ -56,11 +56,18 @@ const NavBar = () => {
                             <li><NavLink className="dropdown-item" to="/use_effect">useEffect</NavLink></li>
                             <li><NavLink className="dropdown-item" to="/use_reducer">useReducer</NavLink></li>
                             <li><NavLink className="dropdown-item" to="/custom_hook">customHook</NavLink></li>
-                            {/* <li><NavLink className="dropdown-item" to="/forms/simple_file_upload">react.memo</NavLink></li> */}
                         </ul>
                     </li>
                     <li className="nav-item col-6 col-md-auto">
                         <NavLink className="nav-link p-2" to="/jsx">JSX</NavLink>
+                    </li>
+                    <li className="nav-item col-6 col-md-auto dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            HOC
+                        </a>
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><NavLink className="dropdown-item" to="/hoc_counter">Counter</NavLink></li>
+                        </ul>
                     </li>
                 </ul>
 

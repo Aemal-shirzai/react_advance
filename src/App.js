@@ -14,6 +14,7 @@ import UseEffectApp from './components/hooks/UseEffectExample';
 import UseReducerExample from './components/hooks/UseReducerExample';
 import CustomHook from './components/hooks/CustomHook';
 import JsxApp from './components/jsxExamples/JsxApp';
+import HocCounterApp from './components/Hoc/counter/HocCounterApp';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path='/use_reducer' element={<UseReducerExample />} />
           <Route path='/custom_hook' element={<CustomHook />} />
           <Route path='/jsx' element={<JsxApp />} />
+          <Route path='/hoc_counter' element={<HocCounterApp />} />
         </Routes>
       </div>
 

@@ -17,14 +17,15 @@ import JsxApp from './components/jsxExamples/JsxApp';
 import HocCounterApp from './components/Hoc/counter/HocCounterApp';
 import HocMouseTrackerApp from './components/Hoc/mouseTracker/HocMouseTrackerApp';
 import RPCounterApp from './components/renderProps/counter/RPCounterApp';
+import TestingApp from './components/testingPart/TestingApp';
 
 function App() {
   return (
     <div className="App">
-    
       <NavBar />
     
       <div className='m-4'>
+        <h4>Learn React</h4>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/lists' element={<ListApp />} />
@@ -43,6 +44,7 @@ function App() {
           <Route path='/hoc_counter' element={<HocCounterApp />} />
           <Route path='/hoc_mouse' element={<HocMouseTrackerApp />} />
           <Route path='/rp_counter' element={<RPCounterApp />} />
+          <Route path='/testing' element={<TestingApp />} />
         </Routes>
       </div>
 

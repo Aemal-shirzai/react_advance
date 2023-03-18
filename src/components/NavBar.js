@@ -78,6 +78,9 @@ const NavBar = () => {
                             <li><NavLink className="dropdown-item" to="/rp_counter">Counter</NavLink></li>
                         </ul>
                     </li>
+                    <li className="nav-item col-6 col-md-auto">
+                        <NavLink className="nav-link p-2" to="/testing">Tests</NavLink>
+                    </li>
                 </ul>
 
                 <hr className="d-md-none text-white-50"/>

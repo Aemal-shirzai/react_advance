@@ -76,7 +76,6 @@ const NavBar = () => {
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><NavLink className="dropdown-item" to="/rp_counter">Counter</NavLink></li>
-                            <li><NavLink className="dropdown-item" to="/hoc_mouse">Mouse Tracker</NavLink></li>
                         </ul>
                     </li>
                 </ul>
